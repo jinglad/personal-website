@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+header,section{
+    height: 700px;
+}
+.col_1_of_2{
+    width: 40%;
+    float: left;
+}
+header img{
+    width: 100%;
+    margin-left: 150px;
+}
+header{
+    background:url(img/header-bg.png);
+}
+#header-heading{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+    color: dimgray;
+}
+.color-1{
+    color: rgba(0, 0, 255, 0.568);
+}
+.btn{
+    margin-top: 35px;
+}
+.btn a{
+    text-decoration: none;
+    color: #6E6EFF;
+    padding: 8px 25px;
+    background: transparent;
+    border: 1px solid #6E6EFF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.btn a:hover{
+    color: white;
+    background:#6E6EFF ;
+}
+.biography{
+    background:url(img/biography-bg.png);
+}
+.biography img{
+    width: 62%;
+    margin-left: 180px;
+    /* margin-bottom: 100px; */
+}
+#biography-content{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.col_1_of_3{
+    width: 30%;
+    float: left;
+}
+.latest-work h1{
+    margin-top: 100px;
+    text-align: center;
+}
+.latest-work-img{
+    margin-top: 150px;
+}
+.latest-work-img img{
+    width: 85%;
+}
+#first-work{
+    margin-left: 138px;
+}
+.testimonial{
+    text-align: center;
+    padding-top: 150px;
+    height: 500px;
+}
+.testimonial h3{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.testimonial span{
+    font-size: 18px;
+    color: dimgray;
+}
+.testimonial p{
+    width: 50%;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact{
+    width: 60%;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    background-color: #FF4991;
+    color: white;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+.contact p{
+    color: white;
+}
+.contact div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+}
