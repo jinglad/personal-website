@@ -124,3 +124,57 @@ footer p{
     text-align: center;
     padding: 15px;
 }
+.cf{
+    height: 600px;
+}
+.contact-form{
+    width: 60%;
+    margin: 50px auto;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    /* position: relative; */
+}
+.contact-form input[type="email"],textarea{
+    /* position: relative; */
+    /* left: 150px; */
+    width: 50%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 15px;
+    /* background-color: ; */
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.contact-form input,textarea:focus{
+    outline: none;
+}
+.contact-form input[type="submit"]{
+    text-decoration: none;
+    color: black;
+    padding: 12px 30px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .5s;
+    font-size: 20px;
+    transition: .5s;
+}
+.contact-form input[type="submit"]:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.397);
+}
+.contact-form textarea::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+}
+.contact-form h1{
+    margin-bottom: 15px;
+}
+
+
+
+
